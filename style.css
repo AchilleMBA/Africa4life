@@ -33,3 +33,31 @@
         
       }
       
+      header .navbar ul{
+        list-style: none;
+      }
+      
+      header .navbar ul li {
+        position :relative ;
+        float: left;
+      
+      }
+      
+      header .navbar ul li a{
+        font-size: 20px;
+        padding: 20px;
+        color:grey;
+        display: inline-block;
+        text-decoration: none;
+       
+        
+      
+      }
+      
+      header .navbar ul li a:hover{
+        background: linear-gradient(90deg, rgba(238,234,220,1) 0%, rgba(241,228,208,1) 35%, rgba(237,224,139,0.4023810207676821) 100%); 
+        color: rgb(163, 173, 135);
+        font-size: 1,5em;
+        transition: 1s ;
+      
+      }
